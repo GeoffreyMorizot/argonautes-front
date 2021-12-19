@@ -1,0 +1,15 @@
+@use "reset";
+@use "base";
+@use "layout";
+
+@use "modules";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --neutral-clr: white;
+  --primary-clr: #f76c6c;
+  --secondary-clr-100: #f4f4f4;
+  --secondary-clr-200: #d6d5d5;
+
+  --br: 0.25rem;
+}
