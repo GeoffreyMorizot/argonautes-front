@@ -58,13 +58,19 @@
   gap: 0.5rem;
 }
 
+.member-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
 .row__item,
 %row__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: 0 auto 0.5rem auto;
+
   padding-left: 1rem;
   border-radius: var(--br);
   background-color: var(--secondary-clr-100);

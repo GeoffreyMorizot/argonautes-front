@@ -17,10 +17,18 @@ header {
 }
 
 main {
-  width: calc(100% / 3);
-  max-width: 960px;
+  width: 80%;
   margin: 0 auto;
   flex-grow: 1;
+}
+
+section {
+  width: 100%;
+
+  &.add {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 footer {
